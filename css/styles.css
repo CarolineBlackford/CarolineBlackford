@@ -1,0 +1,190 @@
+body {
+	font-family: 'Hind', sans-serif;
+	letter-spacing: 1.2px;
+	background-color: white;
+	max-width: 85%;
+	margin: 0 auto;
+	background-color:white;
+	padding-bottom: 1%;	
+}
+
+
+main {
+	max-width: 90%;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	padding-bottom: 1%;
+	padding-left: 2.1%;
+	padding-right: 2%;
+	padding-bottom: 2.5%;
+	
+	
+}
+
+section div {
+	margin:  0;
+	background-image: url("css/fire.jpg");
+}
+
+img{
+	max-width: 100%;
+}
+
+
+.bodytext{
+	font-size: 90%;
+	padding-top: 10%;
+	
+	
+	
+}
+	
+
+
+.caption{
+	font-size:70%;
+}
+
+.row3 {
+	color: #000;
+	padding: 0%;
+	min-height: 75px;
+	padding-bottom: 4%;
+}
+
+.row3 ul {
+	margin: 0;
+	padding-top: 4%;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.row3 ul li {
+	
+	margin: 0;
+	padding: 1% 2%;
+	
+}
+
+.row3 ul li:hover {
+	background-color: rgb(207, 207, 207);page1
+	color: #fff;
+}
+
+
+.row3 a:hover {
+	color: white;
+}
+
+.row3 a{
+	color: #000;
+	text-decoration: none;
+}
+
+.aboutimage img{
+
+}
+
+.aboutimage img{
+	width: 35%;
+	float: left;
+	padding-right: 10%;
+	padding-bottom: 1%;
+	
+}
+
+
+.grid-wrapper{
+	width: 72vw;
+	min-width: 72ch;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1fr auto max-content;
+}
+
+.topimage{
+	grid-column: 1/6;
+	grid-row:2/2;
+	align-content: center;
+	
+}
+
+
+
+.row3{
+	grid-column: 1/6;
+	grid-row:1/2;
+	align-content: center;
+
+}
+
+
+.aboutimage {
+	
+	grid-column: 1/6;
+	grid-row:4/5;
+	align-content: center;
+	
+
+
+}
+
+.bodytext{
+
+	grid-column: 3/6;
+	grid-row:4/5;
+	align-content: center;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+
+footer {
+
+	grid-column: 1/6;
+	grid-row: 7/7;
+	align-content: center;
+	background-color: rgb(231, 231, 231);
+	text-align: center;
+	color: rgb(182, 182, 182);
+
+
+}
+
+.aboutsection {
+
+	grid-column: 1/6;
+	grid-row:3/3;
+	align-content: center;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+
+hr {
+
+	margin-top: 2%;
+
+}
+
+
+
+.aboutimagebio {
+	max-width: 37%;
+	grid-column: 1/6;
+	grid-row:4/5;
+	align-content: center;
+	float: left;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-right: 10%;
+
+
+}
+
+
